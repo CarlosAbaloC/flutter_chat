@@ -2,15 +2,16 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_chat_abalo/src/custom_views/RFInputText2.dart';
 
 import 'custom_views/RFInputText.dart';
 
 class App extends StatelessWidget {
   App({Key? key}): super(key:key);
 
-  RFInputText input1 = RFInputText();
-  RFInputText input2 = RFInputText();
-  RFInputText input3 = RFInputText();
+  RFInputText2 input1 = RFInputText2();
+  RFInputText2 input2 = RFInputText2();
+  RFInputText2 input3 = RFInputText2();
 
 
   void btnPulsar() {
