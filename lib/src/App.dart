@@ -3,12 +3,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'custom_views/RFInputText.dart';
+
 class App extends StatelessWidget {
   App({Key? key}): super(key:key);
 
-  RFInputText2 input1 = RFInputText2();
-  RFInputText2 input2 = RFInputText2();
-  RFInputText2 input3 = RFInputText2();
+  RFInputText input1 = RFInputText();
+  RFInputText input2 = RFInputText();
+  RFInputText input3 = RFInputText();
 
 
   void btnPressed() {
