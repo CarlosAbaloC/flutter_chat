@@ -13,11 +13,11 @@ class App extends StatelessWidget {
   RFInputText input3 = RFInputText();
 
 
-  void btnPressed() {
+  void btnPulsar() {
 
-    print("Hola: " + );
-    print("Hola: " + );
-    print("Hola: " + );
+    print("Hola: " + input1.getText());
+    print("Hola: " + input2.getText());
+    print("Hola: " + input3.getText());
 
   }
 
@@ -43,7 +43,7 @@ class App extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   OutlinedButton(
-                    onPressed: btn1Pressed,
+                    onPressed: btnPulsar,
                     child: Text("Boton"),
                   ),
 
@@ -56,8 +56,9 @@ class App extends StatelessWidget {
               )
             ],
           ),
-          backgroundColor: Colors.deepPurple
         ),
+
+        backgroundColor: Colors.deepPurple,
 
       ),
 
